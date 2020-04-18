@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Grocery List</string>
+    <string name="Item_name_hint">Item Name</string>
+    <string name="Quantity_hint">Quantity</string>
+    <string name="Price_hint">Price</string>
+    <string name="View_btn_name">View List</string>
+    <string name="Add_btn_name">Add</string>
+    <string name="Share_btn_name">Share List</string>
+    <string name="info_text">Name: Adeniji Ifeoluwatobi\n\nSlack Username: Adeniji_Tobi\n\nEmail: adenijitobi94@gmail.com</string>
+    <string name="column_one">Items</string>
+    <string name="column_two">Quantity</string>
+    <string name="column_three">Price</string>
+    <string name="act_share">Share</string>
+</resources>

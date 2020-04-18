@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="@color/colorBackground"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/etItemName"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:hint="@string/Item_name_hint" />
+
+    <EditText
+        android:id="@+id/etQuantity"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etItemName"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:hint="@string/Quantity_hint"/>
+
+    <EditText
+        android:id="@+id/etPrice"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etQuantity"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/Price_hint" />
+
+    <Button
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Add_btn_name"
+        android:background="@color/colorButton"
+        android:id="@+id/btnAdd"
+        android:layout_below="@+id/etPrice" />
+
+    <Button
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/View_btn_name"
+        android:background="@color/colorButton"
+        android:id="@+id/btnView"
+        android:layout_below="@+id/btnAdd" />
+</RelativeLayout>

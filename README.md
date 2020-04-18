@@ -1,6 +1,8 @@
 # Java_Task_3
 A mobile app that takes in grocery items &amp; their prices.
+
 Screenshots of Activities
+
 First Activity
 
 ![Screenshot_20200418-181252_Grocery List](https://user-images.githubusercontent.com/25656593/79645179-9ce40e80-81a5-11ea-879c-214706ad1b1f.jpg)
